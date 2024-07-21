@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8A2FCE32C4D27150020FA1A /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2FCE22C4D27150020FA1A /* LoginHeaderView.swift */; };
+		F8A2FCE52C4D2B6B0020FA1A /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A2FCE42C4D2B6B0020FA1A /* LoginFormView.swift */; };
 		F8C089822C4CD7550009D55B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C089812C4CD7550009D55B /* ProfileView.swift */; };
 		F8C089842C4CD7650009D55B /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C089832C4CD7650009D55B /* TodoView.swift */; };
 		F8C089862C4CD7AB0009D55B /* NewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C089852C4CD7AB0009D55B /* NewTodoView.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8A2FCE22C4D27150020FA1A /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		F8A2FCE42C4D2B6B0020FA1A /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		F8C089812C4CD7550009D55B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F8C089832C4CD7650009D55B /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		F8C089852C4CD7AB0009D55B /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8A2FCE12C4D26C70020FA1A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F8C089872C4CD7BE0009D55B /* LoginView.swift */,
+				F8A2FCE42C4D2B6B0020FA1A /* LoginFormView.swift */,
+				F8A2FCE22C4D27150020FA1A /* LoginHeaderView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F8A2FCE62C4D322F0020FA1A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F8DE5CEE2C4C4B91008C61DB = {
 			isa = PBXGroup;
 			children = (
@@ -164,10 +185,11 @@
 		F8DE5D2B2C4C5284008C61DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F8A2FCE62C4D322F0020FA1A /* New Group */,
+				F8A2FCE12C4D26C70020FA1A /* Login */,
 				F8DE5CFC2C4C4B91008C61DB /* MainView.swift */,
 				F8C089812C4CD7550009D55B /* ProfileView.swift */,
 				F8C089852C4CD7AB0009D55B /* NewTodoView.swift */,
-				F8C089872C4CD7BE0009D55B /* LoginView.swift */,
 				F8C089892C4CD7DB0009D55B /* RegisterView.swift */,
 				F8C089832C4CD7650009D55B /* TodoView.swift */,
 			);
@@ -349,6 +371,7 @@
 				F8C0899A2C4CEBDF0009D55B /* TodoViewModel.swift in Sources */,
 				F8C089882C4CD7BE0009D55B /* LoginView.swift in Sources */,
 				F8C0898E2C4CD8880009D55B /* Todo.swift in Sources */,
+				F8A2FCE52C4D2B6B0020FA1A /* LoginFormView.swift in Sources */,
 				F8C089942C4CEB970009D55B /* NewTodoViewModel.swift in Sources */,
 				F8C089902C4CEB6A0009D55B /* MainViewModel.swift in Sources */,
 				F8C0898C2C4CD87D0009D55B /* User.swift in Sources */,
@@ -356,6 +379,7 @@
 				F8C089982C4CEBCB0009D55B /* RegisterViewModel.swift in Sources */,
 				F8C089922C4CEB7D0009D55B /* ProfileViewModel.swift in Sources */,
 				F8C0898A2C4CD7DB0009D55B /* RegisterView.swift in Sources */,
+				F8A2FCE32C4D27150020FA1A /* LoginHeaderView.swift in Sources */,
 				F8C089842C4CD7650009D55B /* TodoView.swift in Sources */,
 				F8C089862C4CD7AB0009D55B /* NewTodoView.swift in Sources */,
 			);
