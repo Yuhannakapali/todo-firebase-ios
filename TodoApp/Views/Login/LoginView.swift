@@ -10,15 +10,16 @@ import SwiftUI
 struct LoginView: View {
     
     var body: some View {
-        LoginHeaderView()
-        LoginFormView()
-        VStack{
-            Text("New Around Here?")
-            Button("create new account"){
-//              show registration
+        NavigationView{
+            VStack{
+                LoginHeaderView()
+                LoginFormView()
+                VStack{
+                    Text("New Around Here?")
+                   NavigationLink("Create new account", destination: RegisterView())
+                }.padding(.bottom, 50)
             }
-        }.padding(.bottom, 50)
-        
+        }
     }
 }
 
